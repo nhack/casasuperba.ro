@@ -565,7 +565,7 @@ if (array_key_exists('contact-submit', $_POST) && $_POST['contact-submit'] != fa
             <ul class="ul">
                 <li class="dib frame_7_li houseForSale" id="house_1">
                     <img class="frame_7_img opacity1 to02l" id="frame_7_img" src="assets/frame_7_1.05121301.vandut.jpg"
-                         data-src="assets/frame_7_1.05121301.jpg" width="326" height="180" alt=""/>
+                         data-src="assets/frame_7_1.05121301.vandut.jpg" width="326" height="180" alt=""/>
                     <div class="frame_7_li_title">Casa AMR - Vandut - Timisoara<br>zona Freidorf, Timisoara</div>
                     <div class="frame_7_button">Detalii</div>
                 </li>
