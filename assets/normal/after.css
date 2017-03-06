@@ -1,0 +1,56 @@
+/* line 7, ../sass/lightbox.sass */
+body:after {
+  content: url(assets/close.05121301.png) url(assets/loading.05121301.gif) url(assets/prev.05121301.png) url(assets/next.05121301.png);
+  display: none;
+}
+
+.about_us_right_bg {background: #f1f1f1 url('assets/about_us.05121301.jpg') no-repeat center center; background-size:cover;}
+
+.frame_5_bg {background: #f1f1f1 url('assets/frame_5_background.25111301.jpg') no-repeat top center; background-size:cover;}
+
+.frame_8_right_bg {background: #f1f1f1 url('assets/map.05121301.jpg') no-repeat center center; }
+
+.motto_left_bg {background:url('assets/arrow_left.05121301.png') no-repeat;}
+.motto_right_bg {background:url('assets/arrow_right.05121301.png') no-repeat;}
+
+/* line 121, ../sass/lightbox.sass */
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(assets/close.05121301.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+/* line 84, ../sass/lightbox.sass */
+.lb-prev {
+  left: 0;
+  float: left;
+}
+/* line 87, ../sass/lightbox.sass */
+.lb-prev:hover {
+  background: url(assets/prev.05121301.png) left 48% no-repeat;
+}
+
+/* line 90, ../sass/lightbox.sass */
+.lb-next {
+  right: 0;
+  float: right;
+}
+/* line 93, ../sass/lightbox.sass */
+.lb-next:hover {
+  background: url(assets/next.05121301.png) right 48% no-repeat;
+}
+
+/* line 56, ../sass/lightbox.sass */
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(assets/loading.05121301.gif) no-repeat;
+}

@@ -1,0 +1,19 @@
+body, html {height:100%;margin:0;padding:0;width:100%;}
+a, input, button {outline: none;}
+@font-face{font-family:'ff1';src:url('http://assets.casasuperba.ro/ff1.woff') format('woff')}
+@font-face{font-family:'ff2';src:url('http://assets.casasuperba.ro/ff2.woff') format('woff')}
+.header {background: #ffffff; border-style:solid; border-color:#eeeeee; border-width: 0 0 1px 0; height: 100px; width: 100%; z-index: 1000;}
+.header_container {margin: 0 auto; width: 1020px;}
+.fixed {position:fixed;}
+.float_l {float: left;}
+.float_r {float: right;}
+.frame_1 {background-color:#f1f1f1; height: 650px; top: 100px;}
+.logo {background: #5cb7e7 url('http://assets.casasuperba.ro/home.05121301.png') no-repeat center center; border-radius: 50%; height: 60px; width: 60px;}
+.logo_container {height:100%; margin: 20px 0;}
+.main_container {background:#ffffff; color: #444444; width: 100%;}
+.nav {font-family: ff1, arial; font-size: 16px; font-weight: 400; line-height: 60px; margin: 0 0 0 20px;}
+.nav_a {color: #444444; text-decoration: none;}
+.nav_container {height:100%; margin: 20px 0;}
+.slider {background-position: center center; background-size:cover; height: 100%; width:100%;}
+.slider_1 {background-image: url('http://assets.casasuperba.ro/slider_1.05121301.jpg');}
+.rel {position: relative;}

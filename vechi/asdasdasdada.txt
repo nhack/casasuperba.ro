@@ -1,0 +1,205 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.1
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Feb 04, 2008 at 12:04 PM
+-- Server version: 5.0.45
+-- PHP Version: 5.2.5
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Database: `constructiicase`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `casa_sacalaz_meniu`
+-- 
+
+CREATE TABLE `casa_sacalaz_meniu` (
+  `id_meniu` int(11) NOT NULL auto_increment,
+  `text_meniu` char(60) NOT NULL,
+  PRIMARY KEY  (`id_meniu`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+-- 
+-- Dumping data for table `casa_sacalaz_meniu`
+-- 
+
+INSERT INTO `casa_sacalaz_meniu` (`id_meniu`, `text_meniu`) VALUES 
+(1, 'Descriere casa'),
+(2, 'Locatie casa Sacalaz'),
+(3, 'Exterior casa'),
+(4, 'Interior casa'),
+(5, 'Stadiul lucrarii'),
+(6, 'Preturi case');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `casa_sacalaz_text`
+-- 
+
+CREATE TABLE `casa_sacalaz_text` (
+  `id_text` int(11) NOT NULL auto_increment,
+  `text` text NOT NULL,
+  `id_meniu` int(11) NOT NULL,
+  PRIMARY KEY  (`id_text`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `casa_sacalaz_text`
+-- 
+
+INSERT INTO `casa_sacalaz_text` (`id_text`, `text`, `id_meniu`) VALUES 
+(1, '<b>Utilitati:</b>\r\n								<ul>\r\n									<li>Apa de la retea</li>\r\n									<li>Curent</li>\r\n									<li>Televiziune prin cablu</li>\r\n									<li>Gaz pe strada</li>\r\n									<li>Telefonie fixa (RomTelecom)</li>\r\n									<li>Internet</li>\r\n									<li>Serviciu de colectare a gunoaielor</li>\r\n									<li>Iluminat stradal</li>\r\n								</ul>\r\n								<b>Subprafete:</b>\r\n								<ul>\r\n									<li>Suprafata parter + garaj : 110 mp</li>\r\n									<li>Suprafata mansarda : 86 mp</li>\r\n									<li>Suprafata terasa : 30 mp</li>\r\n									<li>Suprafata teren : 640 mp</li>\r\n									<li>Front stradal : 16.23 ml</li>\r\n									<li>Teren liber : aprox. 500 mp</li>\r\n								</ul>\r\n								<b>Materiale folosite:</b>\r\n								<ul>\r\n									<li>Fundatia - din beton armat cu adancimea de 1 metru , latimea de 50 cm si doua centuri antiseismice</li>\r\n									<li>Hidroizolatia – membrana de bitum cu nisip</li>\r\n									<li>Zidaria – din caramida de 30 cm ( Serbia )</li>\r\n									<li>Stalpi, centuri, grinzi, planseu, scara – din beton armat</li>\r\n									<li>Mansarda – din zidarie cu stalpi si centuri</li>\r\n									<li>Acoperisul – de tip sarpanta din lemn</li>\r\n									<li>Asteriala – din scandura</li>\r\n									<li>Folie – Bramac</li>\r\n									<li>Tigla – Bramac</li>\r\n									<li>Izolatie termica – din polistiren de 10 cm</li>\r\n									<li>Tamplarie PVC – culoare maro</li>\r\n								</ul>', 1),
+(2, '<ul>\r\n									<li><b>in rosu</b> - 112.500 euro neg</li>\r\n									<li><b>finisata</b> – 130.000 euro neg</li>\r\n										<ul>\r\n									<li>Exterior: termoizolatie – polistiren de 10 cm</li>\r\n									<li>Geamuri PVC maro</li>\r\n								</ul></ul>', 6);
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `contact`
+-- 
+
+CREATE TABLE `contact` (
+  `id_contact` int(11) NOT NULL auto_increment,
+  `adresa_contact` char(100) NOT NULL,
+  `website_contact` char(50) NOT NULL,
+  PRIMARY KEY  (`id_contact`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+-- 
+-- Dumping data for table `contact`
+-- 
+
+INSERT INTO `contact` (`id_contact`, `adresa_contact`, `website_contact`) VALUES 
+(1, 'Timisoara Str. Mihai Viteazul nr. 38, 300222', 'www.numesite.ro');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `contact_persoane`
+-- 
+
+CREATE TABLE `contact_persoane` (
+  `id_contact_persoane` int(11) NOT NULL auto_increment,
+  `nume_contact` char(50) NOT NULL,
+  `telefon_contact` char(50) NOT NULL,
+  `email_contact` char(50) NOT NULL,
+  PRIMARY KEY  (`id_contact_persoane`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `contact_persoane`
+-- 
+
+INSERT INTO `contact_persoane` (`id_contact_persoane`, `nume_contact`, `telefon_contact`, `email_contact`) VALUES 
+(1, 'Razvan', '0723694214', 'razvan@numesite.ro'),
+(2, 'Razva Doi', '0723694214', 'razvan.doi@numesite.ro');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `date_personale`
+-- 
+
+CREATE TABLE `date_personale` (
+  `id_date_personale` int(11) NOT NULL auto_increment,
+  `titlu_dreptunghi` char(52) NOT NULL,
+  `titlu_header_negru` char(60) NOT NULL,
+  PRIMARY KEY  (`id_date_personale`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+-- 
+-- Dumping data for table `date_personale`
+-- 
+
+INSERT INTO `date_personale` (`id_date_personale`, `titlu_dreptunghi`, `titlu_header_negru`) VALUES 
+(1, 'Constructii case si vile <br><br>Timisoara - Romania', 'Constructii de case si vile la cheie. Proiecte case');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `despre_noi_continut`
+-- 
+
+CREATE TABLE `despre_noi_continut` (
+  `id_continut` int(11) NOT NULL auto_increment,
+  `id_despre_noi_meniu` int(11) NOT NULL,
+  `text_continut` text NOT NULL,
+  PRIMARY KEY  (`id_continut`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+-- 
+-- Dumping data for table `despre_noi_continut`
+-- 
+
+INSERT INTO `despre_noi_continut` (`id_continut`, `id_despre_noi_meniu`, `text_continut`) VALUES 
+(1, 1, 'In calitate de sef de santier angajat la S.C. Constructim S.A. am participat la urmatoarele lucrari:\r\n								<ul>\r\n									<li>Modernizare sediu Inspectoratul de Stat in Constuctii</li>\r\n									<li>Hala de productie si birouri Cores – sef de santier</li>\r\n									<li>Hala de productie si birouri Barum Tehnic – sef de santier</li>\r\n									<li>Numeroase locuinte unifamiliale</li>\r\n								</ul>\r\n								In anul 2004, timp de 6 luni  am participat la un curs de formare profesionala in Franta (Lion) la firma Farjot Development. \r\n								<br><br>\r\n								Am construit incepand din anul 2005 prin firma noastra urmatoarele imobile:\r\n								<ul>\r\n									<li>Doua case unifamiliale (270 mp si 360 mp) in Resita – langa sere</li>\r\n									<li>Complex de locuinte compus din 5 case ( 900 mp) in Dumbravita</li>\r\n									<li>Locuinta cuplata (duplex – 350 mp) in Giroc</li>\r\n									<li>Locuinta unifamiliala (200 mp) in Fratelia – Timisoara</li>\r\n									<li>Locuinta unifamiliala (180 mp) in Sacalaz</li>\r\n								</ul>'),
+(2, 2, 'Prin firma noastra am proiectat ( partea de rezistenta) :\r\n								<ul>\r\n									<li>15 case unifamiliale</li>\r\n									<li>10 locuinte cuplate (duplex-uri)</li>\r\n									<li>1 bloc cu 2 scari</li>\r\n									<li>o cladire de birouri cu hala de productie si depozit</li>\r\n									<li>doua hale de productie</li>\r\n									<li>o hala cu pod rulant</li>\r\n								</ul>'),
+(3, 3, '');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `despre_noi_meniu`
+-- 
+
+CREATE TABLE `despre_noi_meniu` (
+  `id_meniu` int(11) NOT NULL auto_increment,
+  `nume_meniu` char(60) NOT NULL,
+  PRIMARY KEY  (`id_meniu`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+-- 
+-- Dumping data for table `despre_noi_meniu`
+-- 
+
+INSERT INTO `despre_noi_meniu` (`id_meniu`, `nume_meniu`) VALUES 
+(1, 'Experienta executie'),
+(2, 'Proiectare de rezistenta'),
+(3, 'Poze lucrari executate');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `poze_lucrari_executate`
+-- 
+
+CREATE TABLE `poze_lucrari_executate` (
+  `id_poza_lucrari` int(11) NOT NULL auto_increment,
+  `nume_poza` char(200) NOT NULL,
+  PRIMARY KEY  (`id_poza_lucrari`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+-- 
+-- Dumping data for table `poze_lucrari_executate`
+-- 
+
+INSERT INTO `poze_lucrari_executate` (`id_poza_lucrari`, `nume_poza`) VALUES 
+(1, 'CasaPrigor.jpg'),
+(2, 'CasaResita1.jpg'),
+(3, 'CasaResita2.jpg'),
+(4, 'CasaResita22.jpg'),
+(5, 'FatadaGiroc.jpg'),
+(6, 'VedereSpateGiroc.jpg');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `vizite`
+-- 
+
+CREATE TABLE `vizite` (
+  `contor` bigint(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table `vizite`
+-- 
+
+INSERT INTO `vizite` (`contor`) VALUES 
+(28);

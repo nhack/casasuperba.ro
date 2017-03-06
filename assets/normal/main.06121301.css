@@ -1,0 +1,249 @@
+
+
+
+
+.about_us_left {font-family: ff2, arial; font-size: 16px; font-weight: 300; line-height: 26px; width: 600px;}
+.about_us_li {padding: 0 0 0 18px;}
+.about_us_right {border-radius: 50%; height:330px; top: 150px; right:0; width:330px;}
+.about_us_title {color: #5cb7e7; font-family: ff2, arial; font-size: 50px; font-weight: 300;line-height: 50px; margin: 0 0 20px 0;}
+.abs {position: absolute;}
+.bd {display:block;}
+.dib {display:inline-block;}
+.dn {display:none;}
+
+.footer {background: #f4f4f4; border-style:solid; border-color:#eeeeee; border-width: 1px 0 0 0; padding: 20px 0 20px 0;}
+.footer_a {color:#999999; text-decoration:none;}
+.footer_container {color: #999999; font-family: arial; font-size: 12px; margin: 0 auto; width: 1020px;}
+.frame_2 {background: #ffffff;}
+.frame_3 {background: #f4f6f5;}
+.frame_3_center {color: #5cb7e7; font-family: ff2, arial; font-size: 50px; font-weight: 300;width:340px; height: 135px; line-height:135px; text-align:center;}
+.frame_3_left {font-family: ff2, arial; font-size: 16px; font-weight: 300; line-height: 26px; width: 340px;}
+.frame_3_right {font-family: ff2, arial; font-size: 16px; font-weight: 300; line-height: 26px; top: 0; width: 210px;}
+.frame_4 {background: #ffffff;}
+.frame_4_circle {background:#5cb7e7; border-radius: 50%;color: #ffffff; font-family: ff2, arial; font-size: 16px; font-weight: 300; line-height: 26px; height: 450px; padding: 35px 0 0 0; text-align: center;width: 485px;}
+.frame_4_left {margin: 0 30px 0 10px;}
+.frame_4_title {color: #5cb7e7; font-family: ff2, arial; font-size: 40px; font-weight: 300; margin: 0 0 20px 0; text-align: center;}
+.frame_5 {height: 352px;}
+.frame_5_text {background:#5cb7e7; color: #ffffff; font-family: ff2, arial; font-size: 19px; font-weight: 300; line-height: 26px; margin: 20px 0 0 0;padding: 10px; width:375px;}
+.frame_5_title {color: #ffffff; font-family: ff1, arial; font-size: 60px; font-weight: 400;}
+
+.frame_6 {background: #ffffff;}
+.frame_6_img {display:block;margin:0 0 10px 0;}
+.frame_6_li {margin: 0 10px 0 0; width:247px;}
+.frame_6_li_fix {margin-right:0;}
+.frame_6_title {background: #5cb7e7; color: #ffffff; font-family: ff2, arial; font-size: 32px; font-weight: 300; height:139px; line-height:139px;text-align:center;}
+
+.frame_7 {background: #00aced;}
+.frame_7_button {background:#5cb7e7; border-radius:2px; color: #ffffff; cursor:pointer;font-family: arial; font-size: 15px; margin: 0 0 15px 10px; padding: 2px 0 2px 0; text-align:center;width:56px;}
+.frame_7_img {display:block;}
+.frame_7_li {background:#ffffff; border-radius: 2px; cursor: pointer; margin: 0 20px 0 0; width:326px;}
+.frame_7_li_title {font-family:ff2,arial; font-size: 16px; font-weight: 300; line-height: 22px; padding: 10px;}
+.frame_7_title {color: #ffffff; font-family: ff2, arial; font-size: 50px; font-weight: 300; margin:0 0 20px 0;}
+
+.frame_8 {background: #ffffff;}
+.frame_8_left {font-family: ff2, arial; font-size: 16px; font-weight: 300; height: 315px; line-height: 26px;width: 500px;}
+.frame_8_li_left {margin: 0 80px 0 0;}
+.frame_8_right {border-radius: 50%; height: 315px; width:315px;}
+.frame_8_span {font-family: ff1, arial;}
+.frame_8_title {color: #5cb7e7; font-family: ff2, arial; font-size: 50px; font-weight: 300;line-height: 50px; margin: 55px 0 20px 0;}
+.frame_8_ul {list-style-type: none; margin:20px 0 0 0; padding:0; }
+
+
+
+.li_dots {background: #5cb7e7;  border-radius: 50%; height: 8px; left: 0; margin: 10px 0 0 0; width: 8px;}
+.noscroll {overflow: hidden;}
+
+.opacity0 {opacity: 0;}
+.opacity1 {opacity: 1;}
+.overlay {background:rgba(0,0,0,.7);width:100%; z-index:99999;top:0; bottom:0;overflow:hidden;}
+.overlay_close {background:#5cb7e7; border-radius:2px; color: #ffffff; cursor:pointer;font-family: arial; font-size: 15px; padding: 2px 5px 2px 5px;right:30px}
+.overlay_container {color:#444444; font-family: ff2, arial; font-size: 16px; font-weight: 300;  margin: 0 auto; width: 1020px;}
+.overlay_gallery {margin:10px 0 0 0;}
+.overlay_gallery_li {background:#f1f1f1;height:126px; margin:0 10px 10px 0; width:126px;}
+.overlay_gallery_li_fix {margin-right:0;}
+.overlay_left {margin:0 15px 0 0; width:600px;}
+.overlay_left_subtitle {color:#444444;font-size:16px;}
+.overlay_left_title {color:#5cb7e7; font-size: 21px; font-weight: 300;}
+.overlay_link {color:#5cb7e7;text-decoration:underline;}
+.overlay_link:hover {color:#5cb7e7;text-decoration:underline;}
+.overlay_list_ul {font-family: arial; font-size:13px; line-height:18px;}
+.overlay_map {background:#f1f1f1 url('http://assets.casasuperba.ro/map_casa_amr.27111301.jpg') no-repeat center center;border-radius:50%;height:400px; margin: 10px 0 40px 0; width:400px;}
+.overlay_subtitle {color:#5cb7e7; font-family: ff1, arial; font-size: 16px;font-weight: 400; margin: 20px 0 0 0;}
+.overlay_right {width:400px;}
+.overlay_wrapper {background:#ffffff; bottom:10%; overflow: auto; padding: 20px 0 20px 0; top: 10%; width:100%; z-index: 100000;}
+
+.slider_container {margin: 0 auto; padding: 80px 0; width: 1020px;}
+.slider_motto_container {height:46px;}
+.slider_motto_center {background:#5cb7e7; color: #ffffff; font-family: ff1, arial; font-size: 40px; font-weight: 400; height:100%; line-height: 46px; padding: 0 20px 0 20px;}
+.slider_motto_left {height:46px; width:21px;}
+.slider_motto_right {height:46px; width:21px;}
+.slider_title {color: #ffffff; font-family: ff1, arial; font-size: 60px; font-weight: 400;}
+
+.text_shadow {text-shadow: 1px 1px 1px rgba(0,0,0,.3);}
+.to02l {transition:opacity 0.2s linear;-moz-transition:opacity 0.2s linear;-webkit-transition:opacity 0.2s linear;}
+
+.ul {list-style-type: none; margin:0; padding: 0;}
+
+
+
+/* line 11, ../sass/lightbox.sass */
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100001;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+/* line 20, ../sass/lightbox.sass */
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 100002;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+/* line 28, ../sass/lightbox.sass */
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 32, ../sass/lightbox.sass */
+.lightbox a img {
+  border: none;
+}
+
+/* line 35, ../sass/lightbox.sass */
+.lb-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 44, ../sass/lightbox.sass */
+.lb-container {
+  padding: 4px;
+}
+
+/* line 47, ../sass/lightbox.sass */
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+
+/* line 63, ../sass/lightbox.sass */
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 71, ../sass/lightbox.sass */
+.lb-container > .nav {
+  left: 0;
+}
+
+/* line 74, ../sass/lightbox.sass */
+.lb-nav a {
+  outline: none;
+}
+
+/* line 77, ../sass/lightbox.sass */
+.lb-prev, .lb-next {
+  width: 49%;
+  height: 100%;
+  cursor: pointer;
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+
+
+/* line 96, ../sass/lightbox.sass */
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 103, ../sass/lightbox.sass */
+.lb-data {
+  padding: 0 4px;
+  color: #bbbbbb;
+}
+/* line 106, ../sass/lightbox.sass */
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+/* line 111, ../sass/lightbox.sass */
+.lb-data .lb-caption {
+  font-size: 14px;
+  line-height: 1em;
+  font-family: arial;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* line 115, ../sass/lightbox.sass */
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+
+/* line 130, ../sass/lightbox.sass */
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
